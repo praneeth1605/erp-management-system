@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ERP for Educational Institutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar {
+            background-color: #6c757d; /* Navbar color is grey */
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .hero {
+            background: url('homeimage2.png') no-repeat center center/cover;
+            color: #000; /* Hero text color changed to grey */
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+        }
+
+        .features-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+
+        .feature {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+
+        .cta-buttons {
+            margin-top: 20px;
+        }
+
+        .testimonial-section {
+            padding: 60px 0;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .testimonial-section blockquote {
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        .footer {
+            padding: 20px 0;
+            background-color: #6c757d;
+            color: #fff;
+            text-align: center;
+        }
+
+        .cta {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cta a {
+            font-weight: 600;
+            margin: 0 10px;
+        }
+
+        .logo {
+            width: 150px; /* Set the width of the logo */
+        }
+
+        /* Reduce image size */
+        .img-fluid {
+            max-width: 60%; /* Reduce image size to 60% */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://example.com/logo.png" alt="Logo" class="logo"> <!-- Logo Placeholder -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="adminlogin.html">Admin Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="student.html">Student Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="facultylogin.html">Faculty Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Streamline Your Educational Operations</h1>
+            <p>Efficiently manage student records, attendance, grading, and more with our customizable ERP solution.</p>
+            <div class="cta-buttons">
+                <a href="#demo" class="btn btn-light">Get a Demo</a>
+                <a href="#features" class="btn btn-outline-light">Explore Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 feature">
+                    <img src="home1.png" alt="Student Record Management" class="img-fluid">
+                    <h3>Student Record Management</h3>
+                    <p>Manage student data with ease, including personal info, grades, and history.</p>
+                </div>
+                <div class="col-md-3 feature">
+                    <img src="home2.png" alt="Attendance Tracking" class="img-fluid">
+                    <h3>Attendance Tracking</h3>
+                    <p>Track student attendance efficiently and generate reports in seconds.</p>
+                </div>
+                <div class="col-md-3 feature">
+                    <img src="home3.png" alt="Grading System" class="img-fluid">
+                    <h3>Grading System</h3>
+                    <p>Automate grading with customizable templates and instant report generation.</p>
+                </div>
+                <div class="col-md-3 feature">
+                    <img src="home4.png" alt="Administrative Tasks" class="img-fluid">
+                    <h3>Administrative Tasks</h3>
+                    <p>Simplify day-to-day administrative tasks with integrated tools and workflows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section" id="testimonials">
+        <div class="container">
+            <h2>What Our Users Say</h2>
+            <blockquote class="blockquote">
+                "This ERP system has transformed the way we manage student data and operations. It's intuitive and saves us so much time!"
+                <footer class="blockquote-footer">Admin, XYZ School</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta" id="demo">
+        <div class="container">
+            <h2>Ready to Streamline Your School Operations?</h2>
+            <a href="#contact" class="btn btn-primary">Contact Us</a>
+            <a href="#features" class="btn btn-outline-primary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 ERP System. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
